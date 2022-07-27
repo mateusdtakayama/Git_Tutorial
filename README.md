@@ -32,7 +32,7 @@ Este comando cria um arquivo de texto e dentro deste arquivo será escritos os a
 #### Como ignorar os arquivos?
 
 Caso queira ignorar os arquivos .txt na pasta com .git, escreva dentro do .gitignore `*.txt`, por exemplo.
-`Teste/*`.txt para ignorar todos os txts dentro da paste “Teste”
+`Teste/*.txt` para ignorar todos os txts dentro da paste “Teste”
 
 O site abaixo pode ajudar a ignorar arquivos irrelevantes:
 https://www.toptal.com/developers/gitignore
