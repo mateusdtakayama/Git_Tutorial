@@ -1,7 +1,7 @@
 
 # Git/Github - Do Básico ao Avançado
 
-### Comandos Básicos
+## Comandos Básicos
 
 | Comando | Descrição |
 | --- | --- |
@@ -23,7 +23,7 @@
 | `git reset --hard` | Deleta todas as alterações em relação a última commit da branch atual |
 | `git clean -f` | Deleta arquivos não rastreados (não adicionados ao índice) |
 
-### Ignorando Arquivos
+## Ignorando Arquivos
 `echo > .gitingore`
 
 
@@ -40,7 +40,7 @@ https://www.toptal.com/developers/gitignore
 ***Lembrando que o gitignore ignora apenas arquivos que não foram adicionados ao índice!!***
 
 
-### Github
+## Github
 
 Para conectar o repositório local com o remoto é necessário criar uma chave SSH, para criar ela basta usar o comando abaixo no cmd:
 
