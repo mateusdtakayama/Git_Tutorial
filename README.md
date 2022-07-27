@@ -50,7 +50,7 @@ Após isso entre na pasta Users > Seu usuário > .ssh > pegue a chave escrita no
 
 Agora crie um repositório no Github com o nome desejado.
 
-Upando o repositório local no repositório remoto.
+#### Upando o repositório local no repositório remoto.
 
 Agora que você já possui um repositório remoto criado, para upar ele no remoto basta usar os comandos abaixo na ordem:
 
@@ -60,7 +60,7 @@ Agora que você já possui um repositório remoto criado, para upar ele no remot
 | `git add` | Adiciona todos os arquivos da pasta ao índice  |
 | `git commit -m "nome da commit"` | Faz o controle de versionamento dos arquivos adicionados ao índice  |
 | `git branch -m main` | Muda o nome da branhc para main |
-| `git remote add origin “link do repositorio” | Vincula o repositório local com o repositório remoto |
+| `git remote add origin “link do repositorio”` | Vincula o repositório local com o repositório remoto |
 | `git push -u origin main` | Empurra os arquivos do repositório local para o repositório remoto |
 
 Caso seja feita alguma alteração no repositório remoto e que não há no local, basta utilizar `git pull -u origin main`
