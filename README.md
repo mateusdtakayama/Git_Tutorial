@@ -1,26 +1,42 @@
 
-# Git/Github - Do B·sico ao AvanÁado
+# Git/Github - Do B√°sico ao Avan√ßado
 
-#### Comandos B·sicos
+### Comandos B√°sicos
 
-| Comando | DescriÁ„o |
+| Comando | Descri√ß√£o |
 | --- | --- |
-| `git version` | Aponta a vers„o do git instalada no computador |
-| `git config ñglobal user.name ìNomeî` | Serve para registrar o nome do usu·rio que est· fazendo as commits  |
-| `git config ñglobal user.email ìE-mailî` | Serve para registrar o email do usu·rio que est· fazendo as commits  |
+| `git version` | Aponta a vers√£o do git instalada no computador |
+| `git config ‚Äìglobal user.name ‚ÄúNome‚Äù` | Serve para registrar o nome do usu√°rio que est√° fazendo as commits  |
+| `git config ‚Äìglobal user.email ‚ÄúE-mail‚Äù` | Serve para registrar o email do usu√°rio que est√° fazendo as commits  |
 | `git init` | Inicia o .git na pasta desejada |
-| `git add *` | Adiciona todos os arquivos da pasta ao Ìndice |
-| `git commit -m ìNome da commitî` | Faz o controle de versionamento dos arquivos adicionados ao Ìndice |
-| `git diff` | Mostra a diferenÁa entre o que foi alterado em relaÁ„o a ˙ltima commit |
-| `git log` | Mostra os histÛricos das alteraÁıes |
-| `git log --oneline` | Mostra os histÛricos das alteraÁıes em apenas uma linha |
-| `git diff` | Mostra a diferenÁa entre o que foi alterado em relaÁ„o a ˙ltima commit |
-| `git log` | Mostra os histÛricos das alteraÁıes |
-| `git log --oneline` | Mostra os histÛricos das alteraÁıes em apenas uma linha |
-| `git checkout ìN˙mero da commit` | Volta a commit desejada |
-| `git checkout ìArquivo` | Desfaz as alteraÁıes realizadas naquele arquivo em relaÁ„o a ˙ltima commit |
+| `git add *` | Adiciona todos os arquivos da pasta ao √≠ndice |
+| `git commit -m ‚ÄúNome da commit‚Äù` | Faz o controle de versionamento dos arquivos adicionados ao √≠ndice |
+| `git diff` | Mostra a diferen√ßa entre o que foi alterado em rela√ß√£o a √∫ltima commit |
+| `git log` | Mostra os hist√≥ricos das altera√ß√µes |
+| `git log --oneline` | Mostra os hist√≥ricos das altera√ß√µes em apenas uma linha |
+| `git diff` | Mostra a diferen√ßa entre o que foi alterado em rela√ß√£o a √∫ltima commit |
+| `git log` | Mostra os hist√≥ricos das altera√ß√µes |
+| `git log --oneline` | Mostra os hist√≥ricos das altera√ß√µes em apenas uma linha |
+| `git checkout ‚ÄúN√∫mero da commit` | Volta a commit desejada |
+| `git checkout ‚ÄúArquivo` | Desfaz as altera√ß√µes realizadas naquele arquivo em rela√ß√£o a √∫ltima commit |
 | `git status` | Mostra o status dos arquivos alterados/adicionados/deletados |
-| `git reset --hard` | Deleta todas as alteraÁıes em relaÁ„o a ˙ltima commit da branch atual |
-| `git clean -f` | Deleta arquivos n„o rastreados (n„o adicionados ao Ìndice) |
+| `git reset --hard` | Deleta todas as altera√ß√µes em rela√ß√£o a √∫ltima commit da branch atual |
+| `git clean -f` | Deleta arquivos n√£o rastreados (n√£o adicionados ao √≠ndice) |
+
+### Ignorando Arquivos
+`echo > .gitingore`
+
+
+Este comando cria um arquivo de texto e dentro deste arquivo ser√° escritos os arquivos que ser√£o ignorados
+
+#### Como ignorar os arquivos?
+
+Caso queira ignorar os arquivos .txt na pasta com .git, escreva dentro do .gitignore `*.txt`, por exemplo.
+`Teste/*`.txt para ignorar todos os txts dentro da paste ‚ÄúTeste‚Äù
+
+O site abaixo pode ajudar a ignorar arquivos irrelevantes:
+https://www.toptal.com/developers/gitignore
+
+***Lembrando que o gitignore ignora apenas arquivos que n√£o foram adicionados ao √≠ndice!!***
 
 
