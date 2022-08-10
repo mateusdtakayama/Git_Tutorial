@@ -65,7 +65,7 @@ Agora que você já possui um repositório remoto criado, para upar ele no remot
 
 Caso seja feita alguma alteração no repositório remoto e que não há no local, basta utilizar `git pull -u origin main`
 
-Agora caso seja feita alguma alteração no repositório local e deseje upar no remoto, faça um `git add`, `git commit -m "nome da commit"` e `git pull -u origin main`.
+Agora caso seja feita alguma alteração no repositório local e deseje upar no remoto, faça um `git add`, `git commit -m "nome da commit"` e `git pull origin main`.
 
 
 
