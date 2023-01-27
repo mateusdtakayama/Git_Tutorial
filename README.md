@@ -9,7 +9,7 @@
 | `git config –global user.name “Nome”` | Serve para registrar o nome do usuário que está fazendo as commits  |
 | `git config –global user.email “E-mail”` | Serve para registrar o email do usuário que está fazendo as commits  |
 | `git init` | Inicia o .git na pasta desejada |
-| `git add *` | Adiciona todos os arquivos da pasta ao índice |
+| `git add .` | Adiciona todos os arquivos da pasta ao índice |
 | `git commit -m “Nome da commit”` | Faz o controle de versionamento dos arquivos adicionados ao índice |
 | `git diff` | Mostra a diferença entre o que foi alterado em relação a última commit |
 | `git log` | Mostra os históricos das alterações |
@@ -57,7 +57,7 @@ Agora que você já possui um repositório remoto criado, para upar ele no remot
 | Comando | Descrição |
 | --- | --- |
 | `git init` | Inicia o .git em sua pasta |
-| `git add` | Adiciona todos os arquivos da pasta ao índice  |
+| `git add .` | Adiciona todos os arquivos da pasta ao índice  |
 | `git commit -m "nome da commit"` | Faz o controle de versionamento dos arquivos adicionados ao índice  |
 | `git branch -m main` | Muda o nome da branhc para main |
 | `git remote add origin “link do repositorio”` | Vincula o repositório local com o repositório remoto |
@@ -65,7 +65,7 @@ Agora que você já possui um repositório remoto criado, para upar ele no remot
 
 Caso seja feita alguma alteração no repositório remoto e que não há no local, basta utilizar `git pull -u origin main`
 
-Agora caso seja feita alguma alteração no repositório local e deseje upar no remoto, faça um `git add`, `git commit -m "nome da commit"` e `git pull origin main`.
+Agora caso seja feita alguma alteração no repositório local e deseje upar no remoto, faça um `git add .`, `git commit -m "nome da commit"` e `git pull origin main`.
 
 
 
